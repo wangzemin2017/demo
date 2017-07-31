@@ -1,0 +1,282 @@
+/*shortcut部分start*/
+.shortcut{
+    border-bottom: 2px solid #b1191a;
+    height: 44px;
+}
+.shortcut-dropdown{
+    width: 210px;
+    height: 44px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.dropdown-all{
+    height: 44px;
+}
+.dropdown-a{
+    display: block;
+    height: 44px;
+    background-color: #b1191a;
+    padding-left: 10px;
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+}
+.dropdown-a:hover{
+    color: #fff;
+}
+.dropdown-one{
+    height: 466px;
+    background-color: #C81623;
+    margin-top: 2px;
+    border-left: 1px solid #B1191A;
+}
+.dropdown-items{
+    height: 31px;
+    color: #fff;
+    font: 400 14px/31px "microsoft yahei";
+    padding: 0 10px;
+}
+.dropdown-items:hover{
+    background-color: #fff;
+}
+.dropdown-items:hover a{
+    color: #C81623;
+}
+.dropdown-items h1{
+    float: left;
+}
+.dropdown-items a{
+    color: #fff;
+}
+.dropdown-items i{
+    float: right;
+    font-family: "consolas";
+}
+.shortcut-items{
+    width: 680px;
+    height: 44px;
+    float: left;
+}
+.shortcut-items ul li{
+    float: left;
+}
+.shortcut-items ul li a{
+    display: block;
+    height: 44px;
+    font: 400 15px/44px "microsoft yahei";
+    padding: 0 20px;
+    color: #333;
+}
+.shortcut-items ul li a:hover{
+    color: #C81623;
+}
+.shortcut-free{
+    float: right;
+    width: 140px;
+    height: 40px;
+    background: url(../images/free.jpg) no-repeat;
+    margin-top: 2px;
+}
+.shortcut-free a{
+    display: block;
+    width: 140px;
+    height: 40px;
+}
+/*shortcut部分end*/
+
+
+/*main部分start*/
+.main{
+    position: relative;
+}
+.main .main-slider{
+    margin: 12px 0 0 220px;
+    width: 730px;
+    height: 454px;
+    position: relative;
+    float: left;
+}
+.main .circle{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle ul li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #3e3e3e;
+    margin: 0 2px;
+}
+.circle .current{
+    background-color: #b61b1f;
+}
+.arrow-l,.arrow-r{
+    width: 28px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 400 22px/62px "simsun";
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.arrow a:hover{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.main-fastnews{
+    width: 248px;
+    height: 453px;
+    border: 1px solid #E4E4E4;
+    float: right;
+    margin-top: 12px;
+    margin-right: 1px;
+    overflow: hidden;
+}
+.jd-news{
+    height: 200px;
+    border-bottom: 1px dashed #F3F3F3;
+}
+.news-title,
+.lifeservice-title{
+    padding: 0 15px;
+    border-bottom: 1px dotted #F3F3F3;
+    height: 42px;
+    font: 400 16px/42px "microsoft yahei";
+}
+.news-title h1{
+    float: left;
+}
+.news-title a{
+    float: right;
+    font: 12px/42px "consolas";
+}
+.news-content{
+    padding: 15px 0 0 20px;
+}
+.news-content ul li{
+    height: 28px;
+}
+.lifeservice-content ul{
+    width: 255px;
+}
+.lifeservice-content ul li{
+    float: left;
+    position: relative;
+}
+.lifeservice-content li a{
+    display: block;
+    width: 62px;
+    height: 22px;
+    border: 1px solid #EDEDEC;
+    border-top: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+    padding-top: 48px;
+}
+.lifeservice-content li i{
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/hua.png) no-repeat;
+}
+.lifeservice-content .lifeservice-content-icon2{
+    background-position: 0 -25px;
+}
+.lifeservice-content .lifeservice-content-icon3{
+    background-position: 0 -50px;
+}
+.lifeservice-content .lifeservice-content-icon4{
+    background-position: 0 -75px;
+}
+.lifeservice-content .lifeservice-content-icon5{
+    background-position: 0 -100px;
+}
+.lifeservice-content .lifeservice-content-icon6{
+    background-position: 0 -125px;
+}
+.lifeservice-content .lifeservice-content-icon7{
+    background-position: 0 -150px;
+}
+.lifeservice-content .lifeservice-content-icon8{
+    background-position: 0 -175px;
+}
+.lifeservice-content .lifeservice-content-icon9{
+    background-position: 0 -200px;
+}
+.lifeservice-content .lifeservice-content-icon10{
+    background-position: 0 -225px;
+}
+.lifeservice-content .lifeservice-content-icon11{
+    background-position: 0 -250px;
+}
+.lifeservice-content .lifeservice-content-icon12{
+    background-position: 0 -275px;
+}
+.lifeservice-content li .hot-icon{
+    width: 12px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    right: 4px;
+    background: url(../images/song.png) no-repeat;
+}
+/*main部分end*/
+
+
+/*background部分start*/
+.bg{
+    position: relative;
+}
+.bg a{
+    width: 100%;
+    height: 603px;
+    position: absolute;
+    background: url(../images/banner.jpg) no-repeat center top;
+}
+/*background部分end*/
+
+
+/*today部分start*/
+.today{
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+.today .today-l{
+    float: left;
+}
+.today .today-l a{
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url(../images/today.png) no-repeat -213px -136px;
+}
+.today .today-r{
+    float: left;
+    width: 1000px;
+}
+.today-r ul{
+    width: 1050px;
+}
+.today-r ul li{
+    float: left;
+    margin-left: 2px;
+}
+/*today部分end*/
