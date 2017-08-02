@@ -97,6 +97,11 @@ s, i, em {
     margin: 0 auto;
 }
 
+.nw{
+    width: 1190px;
+    margin: 0 auto;
+}
+
 .fl {
     float: left
 }

@@ -280,3 +280,158 @@
     margin-left: 2px;
 }
 /*today部分end*/
+
+
+/*seckill部分start*/
+.seckill{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.seckill-title{
+    padding: 0 20px 0 30px;
+    position: relative;
+    height: 55px;
+    background: url(../images/seckill/seckill_hd.png) no-repeat;
+}
+.seckill-title-l{
+    float: left;
+}
+.sanjiao{
+    width: 28px;
+    height: 28px;
+    background: url(../images/seckill/seckill_sprite.png) no-repeat -190px -48px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+}
+.seckill-icon-clock{
+    width: 34px;
+    height: 40px;
+    background: url(../images/seckill/seckill_sprite.png) no-repeat 0 -40px;
+    float: left;
+    margin: 8px 8px 0 0;
+}
+.seckill-title-l h3{
+    font: 400 26px/40px "fzzhengheis-el-gbregular";
+    height: 40px;
+    color: #fff;
+    padding-top: 5px;
+    float: left;
+}
+.seckill-title-l a{
+    float: left;
+    color: #fff;
+    margin-left: 12px;
+    margin-top: 19px;
+    font: 14px/24px "microsoft yahei";
+    height: 24px;
+    position: relative;
+    padding-right: 20px;
+}
+.seckill-icon-arrow{
+    width: 15px;
+    height: 16px;
+    background: url(../images/seckill/seckill_sprite.png) no-repeat -154px -40px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+.seckill-title-r{
+    float: right;
+}
+.seckill-words{
+    float: left;
+    color: #fff;
+    font: 14px/24px "microsoft yahei";
+    height: 24px;
+    margin-top: 20px;
+}
+.seckill-time{
+    float: left;
+    margin-left: 6px;
+    margin-right: 8px;
+}
+.seckill-time li{
+    float: left;
+}
+.seckill-time-h,
+.seckill-time-m,
+.seckill-time-s{
+    width: 35px;
+    height: 37px;
+    font: 700 24px/37px "Arial";
+    background-color: #440106;
+    text-align: center;
+    border-radius: 3px;
+    color: #f90013;
+    margin-top: 10px;
+}
+.seckill-time-split{
+    margin: 22px 4px 0 4px;
+}
+.split-dot-up,
+.split-dot-down{
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #440106;
+    margin-bottom: 4px;
+}
+.seckill-content{
+    height: 225px;
+    padding: 12px 0 13px;
+}
+.seckill-content-l{
+    float: left;
+}
+.seckill-wrap{
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+.seckill-wrap .image-shadow{
+    width: 170px;
+    height: 20px;
+    background: url(../images/seckill/seckill_sprite.png) no-repeat left top;
+    position: absolute;
+    left: 0;
+    top: 135px;
+}
+.seckill-content-l ul li{
+    float: left;
+    width: 170px;
+    height: 225px;
+    border-right: 1px solid #e7e7e7;
+    padding: 0 14px 0 15px;
+}
+.seckill-content-l li img{
+    width: 130px;
+    height: 130px;
+    margin: 17px 0;
+}
+.seckill-content-l li p{
+    color: #999;
+    height: 32px;
+    line-height: 16px;
+    font-family: microsoft yahei;
+}
+.seckill-price{
+    height: 25px;
+    padding: 3px 0;
+}
+.price-now{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 8px;
+    color: #f10214;
+}
+.price-now i{
+    font-size: 12px;
+    font-weight: 300;
+    font-family: arial;
+}
+.price-before{
+    color: #999;
+}
+/*seckill部分end*/
